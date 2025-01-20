@@ -1,7 +1,7 @@
 #include <iostream>
+#include "system.cpp"
 
 int main() {
-
-	std::cout << "\nhello world\n";
-	return 0;
-}
+    System system(100, 20.0, 0.5, 0.1);
+    system.updateRule();
+};

@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -std=c++17
 SRC = main.cpp
-EXEC = myprogram
+EXEC = vicsek
 OBJ = $(SRC:.cpp=.o)
 
 %.o: %.cpp
