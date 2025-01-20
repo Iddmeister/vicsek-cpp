@@ -5,11 +5,10 @@ EXEC = myprogram
 OBJ = $(SRC:.cpp=.o)
 
 %.o: %.cpp
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@;
 
 $(EXEC): $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -o $(EXEC)
+	$(CC) $(CFLAGS) $(OBJ) -o $(EXEC);
 
 all:
-	$(CC) $(CFLAGS) $(OBJ) -o $(EXEC)
-	echo $(info Build Complete)
+	$(CC) $(CFLAGS) $(OBJ) -o $(EXEC);
