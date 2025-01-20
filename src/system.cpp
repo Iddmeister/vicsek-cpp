@@ -6,6 +6,7 @@ System::System(int particleNumber, double sideLength, double timeStep, double no
     this->noiseStrength = noiseStrength;
     this->sideLength = sideLength;
     this->timeStep = timeStep;
+    this->simulationBox = Box(sideLength, sideLength, 0, 0);
     std::cout << "\ncreated system object\n";
 }
 

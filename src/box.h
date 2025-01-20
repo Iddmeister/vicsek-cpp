@@ -1,3 +1,6 @@
+#ifndef BOX_H
+#define BOX_H
+
 class Box {
 
     public:
@@ -15,3 +18,5 @@ class Box {
         double y0;
 
 };
+
+#endif
